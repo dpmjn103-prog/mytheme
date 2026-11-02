@@ -32,7 +32,7 @@
     <main>
         <section class="hero" id="inicio">
             <div class="hero-copy reveal">
-                <p class="eyebrow">Fashion creator / Barcelona</p>
+                <p class="eyebrow">Fashion creator / México, Guatemala y Tel-Aviv</p>
                 <h1>Hola soy Sofía Hegel. Estilo que<br><i>se siente.</i></h1>
                 <p class="hero-intro">Exploro moda, viajes y belleza a traves de historias honestas. Color, movimiento y una mirada siempre personal.</p>
                 <a class="text-link" href="#sobre-mi">Conoce mi mundo <span>&darr;</span></a>
