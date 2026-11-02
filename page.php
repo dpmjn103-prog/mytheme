@@ -11,7 +11,8 @@
 <div class="page-shell">
     <header class="site-header">
         <a class="wordmark" href="<?php echo esc_url( home_url( '/' ) ); ?>" aria-label="Inicio">
-            <span>VALENTINA</span><em>ROSE</em>
+            <img src="https://www.sofiahegel.com/wp-content/uploads/2020/03/cropped-ICONO_RRSS.png" alt="Sofía Hegel">
+            <span class="wordmark-name">Sofía Hegel</span>
         </a>
 
         <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu">
@@ -30,8 +31,8 @@
                 ?>
             <?php else : ?>
                 <a href="<?php echo esc_url( home_url( '/#sobre-mi' ) ); ?>">Sobre mi</a>
-                <a href="<?php echo esc_url( home_url( '/#colecciones' ) ); ?>">Looks</a>
-                <a href="<?php echo esc_url( home_url( '/#journal' ) ); ?>">Journal</a>
+                <a href="<?php echo esc_url( home_url( '/#colecciones' ) ); ?>">Aliados</a>
+                <a href="<?php echo esc_url( home_url( '/#journal' ) ); ?>">Libro</a>
                 <a href="<?php echo esc_url( home_url( '/#contacto' ) ); ?>">Contacto</a>
             <?php endif; ?>
         </nav>
@@ -43,7 +44,7 @@
         <?php while ( have_posts() ) : the_post(); ?>
             <article id="page-<?php the_ID(); ?>" <?php post_class( 'content-page' ); ?>>
                 <header class="page-hero">
-                    <p class="eyebrow">Valentina Rose</p>
+                    <p class="eyebrow">Sofía Hegel / Emprendedora</p>
                     <?php the_title( '<h1>', '</h1>' ); ?>
                 </header>
 
@@ -61,13 +62,13 @@
     </main>
 
     <footer class="site-footer">
-        <a class="wordmark footer-mark" href="<?php echo esc_url( home_url( '/' ) ); ?>"><span>VALENTINA</span><em>ROSE</em></a>
+        <a class="wordmark footer-mark" href="<?php echo esc_url( home_url( '/' ) ); ?>" aria-label="Inicio"><img src="https://www.sofiahegel.com/wp-content/uploads/2020/03/cropped-ICONO_RRSS.png" alt="Sofía Hegel"></a>
         <div class="footer-links">
             <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
             <a href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok</a>
             <a href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube</a>
         </div>
-        <p>&copy; <?php echo date( 'Y' ); ?> Valentina Rose</p>
+        <p>&copy; <?php echo date( 'Y' ); ?> Sofía Hegel</p>
     </footer>
 </div>
 

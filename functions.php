@@ -37,6 +37,22 @@ function custom_starter_theme_setup() {
 add_action( 'after_setup_theme', 'custom_starter_theme_setup' );
 
 /**
+ * Keep the primary navigation label consistent with the homepage.
+ */
+function custom_starter_theme_primary_menu_labels( $items, $args ) {
+	if ( 'primary' === $args->theme_location ) {
+		foreach ( $items as $item ) {
+			if ( 0 === strcasecmp( 'Looks', trim( $item->title ) ) ) {
+				$item->title = 'Aliados';
+			}
+		}
+	}
+
+	return $items;
+}
+add_filter( 'wp_nav_menu_objects', 'custom_starter_theme_primary_menu_labels', 10, 2 );
+
+/**
  * Enqueue Styles and Scripts
  */
 function custom_starter_theme_scripts() {
