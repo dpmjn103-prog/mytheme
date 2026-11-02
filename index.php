@@ -55,7 +55,7 @@
                 <p>Creando una conexion real entre las personas y las marcas.</p>
                 <h2>Moda con alma,<br><i>vida con historia.</i></h2>
                 <div class="manifesto-body">
-                    <p>Soy Valentina, creadora de contenido y estilista. Acompano marcas con una estetica cuidada y audiencias que confian en mi criterio.</p>
+                    <p>Soy Sofía creadora de contenido y emprendedora. Acompaño marcas con una estetica cuidada y audiencias que confian en mi criterio.</p>
                     <a class="text-link" href="#contacto">Trabajemos juntos <span>&nearr;</span></a>
                 </div>
             </div>
