@@ -56,7 +56,7 @@
                 <p>Creando conexiones reales entre personas, marcas e ideas.</p>
                 <h2>Ideas con alma,<br><i>proyectos con futuro.</i></h2>
                 <div class="manifesto-body">
-                    <p>Soy Sofía Hegel, emprendedora. Creo en el poder de las ideas y en construir proyectos con propósito, creatividad y relaciones auténticas.</p>
+                    <p>Soy Sofía Hegel, emprendedora. Creo en el poder de las ideas y en construir proyectos con propósito, creatividad y relaciones auténticas!</p>
                     <a class="text-link" href="#contacto">Trabajemos juntos <span>&nearr;</span></a>
                 </div>
             </div>
